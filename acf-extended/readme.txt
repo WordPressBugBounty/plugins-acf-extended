@@ -3,9 +3,9 @@ Contributors: hwk-fr
 Donate link: https://www.acf-extended.com
 Tags: acf, custom fields, meta, admin, fields
 Requires at least: 4.9
-Tested up to: 7.0
+Tested up to: 7.1
 Requires PHP: 5.6
-Stable tag: 0.9.2.6
+Stable tag: 0.9.2.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -494,14 +494,30 @@ The content of the upcoming patch and work in progress features are all listed o
 
 == Changelog ==
 
+= 0.9.2.7 =
+
+**ACF Extended Pro 0.9.2.7:**
+
+* Module: Forms - Fixed security issue with shortcode preview
+
+**ACF Extended Basic 0.9.2.7:**
+
+* Module: Forms - Fixed security issue with Email Attachment deletion feature
+* Module: Forms - Added security check when updating an admin user (Thanks to Khaled Alenazi)
+* Module: Forms - Enhanced user role detection & safeguard logic when updating a user
+* Module: Forms - Fixed security issue with shortcode attributes
+* Module: Ajax Author Box - Added capability check on post author change
+* Field: Button Group - Added Enforced Form Validation logic
+* General: Enhanced CSS integration with ACF 6.8.6+ and WP 7.0+
+
 = 0.9.2.6 =
 
 **ACF Extended Pro 0.9.2.6:**
 
-* Field: AI Chat - Added new field to render an LLM chat interface (WP 7.0+)
-* Field: AI Chat - The interface can generate text and images at the moment
-* Field: AI Chat - The field uses the new WP 7.0 Connectors core API
-* Field: AI Chat - Added various settings (preferred model, system prompt, max tokens etc...)
+* Field: AI Chat - New field that render a fully customizable LLM chat interface (WP 7.0+)
+* Field: AI Chat - Compatible with Text and Images generation at the moment
+* Field: AI Chat - The field is fully integrated with the new WP 7.0 Connectors core API
+* Field: AI Chat - More than a dozen settings (Model preference, Agent instruction, Max tokens...)
 * Field Settings: AI Fill - Added "Fill with AI" setting that display a link to open a chat modal
 * Field Settings: AI Fill - Any response can be applied or appended as value to the related field
 * Field Settings: AI Fill - Compatible with Code Editor, Text, Textarea and WYSIWYG fields
